@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FluidSimulation3DExample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\corrade\;CMake Files\corrade\modules\;CMake Files\corrade\src\;CMake Files\corrade\src\Corrade\;CMake Files\corrade\src\Corrade\Containers\;CMake Files\corrade\src\Corrade\Interconnect\;CMake Files\corrade\src\Corrade\PluginManager\;CMake Files\corrade\src\Corrade\TestSuite\;CMake Files\corrade\src\Corrade\TestSuite\Compare\;CMake Files\corrade\src\Corrade\Utility\;CMake Files\src2\;CMake Files\modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\cmake\;CMake Files\..\..\..\..\..\..\usr\share\cmake\MagnumIntegration\;CMake Files\magnum\;CMake Files\magnum\modules\;CMake Files\magnum\src\;CMake Files\magnum\src\MagnumExternal\;CMake Files\magnum\src\MagnumExternal\OpenGL\;CMake Files\magnum\src\MagnumExternal\OpenGL\KHR\;CMake Files\magnum\src\MagnumExternal\OpenGL\GL\;CMake Files\magnum\src\Magnum\;CMake Files\magnum\src\Magnum\Animation\;CMake Files\magnum\src\Magnum\Math\;CMake Files\magnum\src\Magnum\Math\Algorithms\;CMake Files\magnum\src\Magnum\Math\Geometry\;CMake Files\magnum\src\Magnum\Platform\;CMake Files\magnum\src\Magnum\DebugTools\;CMake Files\magnum\src\Magnum\GL\;CMake Files\magnum\src\Magnum\MeshTools\;CMake Files\magnum\src\Magnum\Primitives\;CMake Files\magnum\src\Magnum\SceneGraph\;CMake Files\magnum\src\Magnum\Shaders\;CMake Files\magnum\src\Magnum\Text\;CMake Files\magnum\src\Magnum\TextureTools\;CMake Files\magnum\src\Magnum\Trade\;CMake Files\magnum\src\MagnumPlugins\;CMake Files\magnum-integration\;CMake Files\magnum-integration\modules\;CMake Files\magnum-integration\src\;CMake Files\magnum-integration\src\Magnum\;CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="magnum-fluidsimulation3d">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/bin/magnum-fluidsimulation3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/$&lt;CONFIG&gt;/bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add option="-DIMGUI_USER_CONFIG=&quot;Magnum/ImGuiIntegration/visibility.h&quot;"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/magnum/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/magnum-integration/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/imgui"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 magnum-fluidsimulation3d"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="magnum-fluidsimulation3d/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/bin/magnum-fluidsimulation3d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/$&lt;CONFIG&gt;/bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add option="-DIMGUI_USER_CONFIG=&quot;Magnum/ImGuiIntegration/visibility.h&quot;"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/magnum/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/magnum-integration/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/imgui"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 magnum-fluidsimulation3d/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FluidSimulation_RESOURCES-dependencies">
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 FluidSimulation_RESOURCES-dependencies"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/resource_FluidSimulation_RESOURCES.cpp">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/src2/resource_FluidSimulation_RESOURCES.cpp.rule">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/DrawableObjects/FlatShadeObject.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/DrawableObjects/ParticleGroup.cpp">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/DrawableObjects/ParticleGroup.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/DrawableObjects/WireframeObjects.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/FluidSimulation3DExample.cpp">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/SPH/DomainBox.cpp">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/SPH/DomainBox.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/SPH/SPHKernels.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/SPH/SPHSolver.cpp">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/SPH/SPHSolver.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/Shaders/ParticleSphereShader.cpp">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/Shaders/ParticleSphereShader.frag">
+			<Option target="FluidSimulation_RESOURCES-dependencies"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/Shaders/ParticleSphereShader.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/Shaders/ParticleSphereShader.vert">
+			<Option target="FluidSimulation_RESOURCES-dependencies"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/SourceSansPro-Regular.ttf">
+			<Option target="FluidSimulation_RESOURCES-dependencies"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/TaskScheduler.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/ThreadPool.h">
+			<Option target="magnum-fluidsimulation3d"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/modules/CorradeLibSuffix.cmake">
+			<Option virtualFolder="CMake Files\corrade\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/modules/UseCorrade.cmake">
+			<Option virtualFolder="CMake Files\corrade\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/configure.h.cmake">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\Containers\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\Interconnect\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\PluginManager\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/configure.h.cmake">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\PluginManager\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\TestSuite\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\TestSuite\Compare\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\Utility\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src2\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/configure.h.cmake">
+			<Option virtualFolder="CMake Files\src2\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src2/resources.conf">
+			<Option virtualFolder="CMake Files\src2\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/modules/FindMagnum.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/../../../../../../usr/share/cmake/MagnumIntegration/FindMagnumIntegration.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake\MagnumIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/../../../../../../usr/share/cmake/MagnumIntegration/MagnumIntegrationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake\MagnumIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\magnum\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/modules/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\magnum\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL/KHR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\OpenGL\KHR\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL/GL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\OpenGL\GL\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Animation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Animation\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Math\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Math/Algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Math\Algorithms\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Math/Geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Math\Geometry\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Platform\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/DebugTools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\DebugTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/GL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\GL\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/MeshTools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\MeshTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Primitives/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Primitives\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/SceneGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\SceneGraph\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Shaders/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Shaders\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Shaders/resources.conf">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Shaders\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Text/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Text\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Text/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Text\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/TextureTools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\TextureTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/TextureTools/resources.conf">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\TextureTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Trade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Trade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Trade/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Trade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumPlugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumPlugins\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/FindImGui.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/FindMagnum.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\src\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/ImGuiIntegration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/ImGuiIntegration/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/ImGuiIntegration/resources.conf">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Corrade"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\corrade\;CMake Files\corrade\modules\;CMake Files\corrade\src\;CMake Files\corrade\src\Corrade\;CMake Files\corrade\src\Corrade\Containers\;CMake Files\corrade\src\Corrade\Interconnect\;CMake Files\corrade\src\Corrade\PluginManager\;CMake Files\corrade\src\Corrade\TestSuite\;CMake Files\corrade\src\Corrade\TestSuite\Compare\;CMake Files\corrade\src\Corrade\Utility\;CMake Files\magnum\;CMake Files\magnum\modules\;CMake Files\magnum\src\;CMake Files\magnum\src\MagnumExternal\;CMake Files\magnum\src\MagnumExternal\OpenGL\;CMake Files\magnum\src\MagnumExternal\OpenGL\KHR\;CMake Files\magnum\src\MagnumExternal\OpenGL\GL\;CMake Files\magnum\src\Magnum\;CMake Files\magnum\src\Magnum\Animation\;CMake Files\magnum\src\Magnum\Math\;CMake Files\magnum\src\Magnum\Math\Algorithms\;CMake Files\magnum\src\Magnum\Math\Geometry\;CMake Files\magnum\src\Magnum\Platform\;CMake Files\magnum\src\Magnum\DebugTools\;CMake Files\magnum\src\Magnum\GL\;CMake Files\magnum\src\Magnum\MeshTools\;CMake Files\magnum\src\Magnum\Primitives\;CMake Files\magnum\src\Magnum\SceneGraph\;CMake Files\magnum\src\Magnum\Shaders\;CMake Files\magnum\src\Magnum\Text\;CMake Files\magnum\src\Magnum\TextureTools\;CMake Files\magnum\src\Magnum\Trade\;CMake Files\magnum\src\MagnumPlugins\;CMake Files\src3\;CMake Files\modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\cmake\;CMake Files\..\..\..\..\..\..\usr\share\cmake\MagnumIntegration\;CMake Files\magnum-integration\;CMake Files\magnum-integration\modules\;CMake Files\magnum-integration\src\;CMake Files\magnum-integration\src\Magnum\;CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Corrade">
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Makefile&quot;  VERBOSE=1 Corrade"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeContainers-headers">
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Containers"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Containers/Makefile&quot;  VERBOSE=1 CorradeContainers-headers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Containers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Containers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Containers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeInterconnect">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradeInterconnect-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 CorradeInterconnect"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeInterconnect/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradeInterconnect-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 CorradeInterconnect/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Interconnect/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradePluginManager">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradePluginManager-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 CorradePluginManager"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradePluginManager/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradePluginManager-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 CorradePluginManager/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradePluginManagerObjects">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/CMakeFiles/CorradePluginManagerObjects.dir/CorradePluginManagerObjects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCorradePluginManagerObjects_EXPORTS"/>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 CorradePluginManagerObjects"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradePluginManagerObjects/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/CMakeFiles/CorradePluginManagerObjects.dir/CorradePluginManagerObjects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCorradePluginManagerObjects_EXPORTS"/>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 CorradePluginManagerObjects/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeTestSuite">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradeTestSuite-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 CorradeTestSuite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeTestSuite/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradeTestSuite-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 CorradeTestSuite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeTestSuiteCompare">
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Compare"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Compare/Makefile&quot;  VERBOSE=1 CorradeTestSuiteCompare"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Compare/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Compare/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/TestSuite/Compare/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeUtility">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradeUtility-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 CorradeUtility"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeUtility/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/lib/libCorradeUtility-d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 CorradeUtility/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeUtilityObjects">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/CorradeUtilityObjects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCorradeUtilityObjects_EXPORTS"/>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 CorradeUtilityObjects"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CorradeUtilityObjects/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/CorradeUtilityObjects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCorradeUtilityObjects_EXPORTS"/>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 CorradeUtilityObjects/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corrade-rc">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/bin/corrade-rc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/$&lt;CONFIG&gt;/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_BUILD_STATIC"/>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 corrade-rc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corrade-rc/fast">
+				<Option output="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/Debug/bin/corrade-rc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/$&lt;CONFIG&gt;/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCORRADE_BUILD_STATIC"/>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src"/>
+					<Add directory="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 corrade-rc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/CMakeFiles/CorradePluginManagerObjects.dir/AbstractPlugin.cpp.o">
+			<Option target="CorradePluginManager"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/PluginManager/CMakeFiles/CorradePluginManagerObjects.dir/PluginMetadata.cpp.o">
+			<Option target="CorradePluginManager"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/Configuration.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/ConfigurationValue.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/Debug.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/Directory.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/FileWatcher.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/MurmurHash2.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/Sha1.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/System.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/Tweakable.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/cmake-build-debug/corrade/src/Corrade/Utility/CMakeFiles/CorradeUtilityObjects.dir/TweakableParser.cpp.o">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Array.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/ArrayView.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/ArrayViewStl.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/ArrayViewStlSpan.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Containers.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/EnumSet.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/EnumSet.hpp">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/GrowableArray.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Implementation/RawForwardList.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/LinkedList.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Optional.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/OptionalStl.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Pointer.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/PointerStl.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Reference.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/ScopeGuard.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/ScopedExit.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/StaticArray.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/StridedArrayView.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/Tags.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/constructHelpers.h">
+			<Option target="CorradeContainers-headers"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Corrade.h">
+			<Option target="Corrade"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Connection.cpp">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Connection.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Emitter.cpp">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Emitter.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Implementation/ReceiverConnection.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Interconnect.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Receiver.cpp">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/Receiver.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/StateMachine.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/visibility.h">
+			<Option target="CorradeInterconnect"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/AbstractManager.cpp">
+			<Option target="CorradePluginManager"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/AbstractManager.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/AbstractManagingPlugin.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/AbstractPlugin.cpp">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/AbstractPlugin.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/Manager.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/PluginManager.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/PluginMetadata.cpp">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/PluginMetadata.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/visibility.h">
+			<Option target="CorradePluginManagerObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Comparator.cpp">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Comparator.h">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/Container.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/File.cpp">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/File.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/FileToString.cpp">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/FileToString.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/FloatingPoint.cpp">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/FloatingPoint.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/Numeric.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/SortedContainer.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/StringToFile.cpp">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/StringToFile.h">
+			<Option target="CorradeTestSuiteCompare"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Implementation/BenchmarkCounters.h">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Implementation/BenchmarkStats.h">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/TestSuite.h">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Tester.cpp">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Tester.h">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/visibility.h">
+			<Option target="CorradeTestSuite"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/AbstractHash.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Algorithms.cpp">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Algorithms.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Arguments.cpp">
+			<Option target="CorradeUtility"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Arguments.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Assert.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Configuration.cpp">
+			<Option target="CorradeUtilityObjects"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Configuration.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/ConfigurationGroup.cpp">
+			<Option target="CorradeUtility"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/ConfigurationGroup.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/ConfigurationValue.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/ConfigurationValue.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Debug.cpp">
+			<Option target="CorradeUtilityObjects"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Debug.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/DebugStl.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Directory.cpp">
+			<Option target="CorradeUtilityObjects"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Directory.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Endianness.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/EndiannessBatch.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/FileWatcher.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/FileWatcher.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Format.cpp">
+			<Option target="CorradeUtility"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Format.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/FormatStl.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Implementation/Resource.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Implementation/tweakable.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Macros.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/MurmurHash2.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/MurmurHash2.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Resource.cpp">
+			<Option target="CorradeUtility"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Resource.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Sha1.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Sha1.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/StlForwardArray.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/StlForwardString.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/StlForwardTuple.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/StlForwardVector.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/StlMath.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/String.cpp">
+			<Option target="CorradeUtility"/>
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/String.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/System.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/System.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Tweakable.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Tweakable.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/TweakableParser.cpp">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/TweakableParser.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/TypeTraits.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Unicode.cpp">
+			<Option target="CorradeUtility"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Unicode.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/Utility.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/VisibilityMacros.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/rc.cpp">
+			<Option target="corrade-rc"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/utilities.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/visibility.h">
+			<Option target="CorradeUtilityObjects"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/modules/CorradeLibSuffix.cmake">
+			<Option virtualFolder="CMake Files\corrade\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/modules/UseCorrade.cmake">
+			<Option virtualFolder="CMake Files\corrade\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/configure.h.cmake">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Containers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\Containers\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Interconnect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\Interconnect\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\PluginManager\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/PluginManager/configure.h.cmake">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\PluginManager\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\TestSuite\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/TestSuite/Compare/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\TestSuite\Compare\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/corrade/src/Corrade/Utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\corrade\src\Corrade\Utility\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\magnum\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/modules/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\magnum\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL/KHR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\OpenGL\KHR\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumExternal/OpenGL/GL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumExternal\OpenGL\GL\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Animation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Animation\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Math\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Math/Algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Math\Algorithms\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Math/Geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Math\Geometry\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Platform\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/DebugTools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\DebugTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/GL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\GL\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/MeshTools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\MeshTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Primitives/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Primitives\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/SceneGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\SceneGraph\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Shaders/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Shaders\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Shaders/resources.conf">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Shaders\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Text/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Text\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Text/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Text\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/TextureTools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\TextureTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/TextureTools/resources.conf">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\TextureTools\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Trade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Trade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/Magnum/Trade/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum\src\Magnum\Trade\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum/src/MagnumPlugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum\src\MagnumPlugins\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/src3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src3\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/modules/FindMagnum.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/../../../../../../usr/share/cmake/MagnumIntegration/FindMagnumIntegration.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake\MagnumIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/../../../../../../usr/share/cmake/MagnumIntegration/MagnumIntegrationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake\MagnumIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/FindImGui.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/modules/FindMagnum.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\modules\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\src\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/ImGuiIntegration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/ImGuiIntegration/configure.h.cmake">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\"/>
+		</Unit>
+		<Unit filename="/home/my5t3ry/codeBase/cpp/magnum/magnum-bootstrap-base/magnum-integration/src/Magnum/ImGuiIntegration/resources.conf">
+			<Option virtualFolder="CMake Files\magnum-integration\src\Magnum\ImGuiIntegration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
